@@ -2,53 +2,47 @@
 @media(max-width:768px){
 
 
-html{
-    box-sizing: border-box;
-}
+    html{
+        box-sizing: border-box;
+    }
 
-.logo{
-    text-align: center;
-}
-.ohmyfood-wrapper{
-    background-color: rgb(238, 239, 239);
-    text-align: center;
+    .logo{
+        text-align: center;
+    }
+    .ohmyfood-wrapper{
+        background-color: rgb(238, 239, 239);
+        text-align: center;
+        width: 100%;
+    }
+    .location-1{
+        background-color: rgb(214, 213, 213);
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+
+    }
+
+    .info-1{
     width: 100%;
-}
-.location-1{
-    background-color: rgb(214, 213, 213);
-    width: 100%;
-    display: inline-block;
-    text-align: center;
+    }
 
-}
-
-.info-1{
-   width: 100%;
-}
-
-.explore-restaurants{
-    background-color: #d046a9;
-    border-radius: 50px;
+    .explore-restaurants{
+        background-color: #d046a9;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        margin: 15%;
+        
+    }
+    .how-it-works{
+        width: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    margin: 15%;
-    
-}
-.how-it-works{
-    width: 100%;
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: column;
 
-}
-.how-it-works li{
-    width: 50%;
-    border-radius: 5px;
-    
-   
-
-}
-
-
-
+    }
+    .how-it-works li{
+        width: 50%;
+        border-radius: 5px;
+    }
 }
